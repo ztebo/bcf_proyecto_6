@@ -8,8 +8,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:bcf_proyecto_6/main.dart';
-
 import '../lib/src/my_app.dart';
 
 void main() {

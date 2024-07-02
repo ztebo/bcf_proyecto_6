@@ -22,10 +22,31 @@ class WigdetKeyboard extends StatelessWidget {
             name: Note.notes[index].text,
             audioPath: Note.notes[index].audio,
           ),
-        ),
+        )
+          ,
       ),
     );
   }
 
 
 }
+/*
+List.generate(
+          Note.notes.length,
+          (index) => WidgetKey(
+            keyColor: Note.notes[index].color,
+            name: Note.notes[index].text,
+            audioPath: Note.notes[index].audio,
+          ),
+        )
+        */
+
+/*
+[
+          WidgetKey(
+            keyColor: Note.notes[0].color,
+            name: Note.notes[0].text,
+            audioPath: Note.notes[0].audio,
+          )
+        ]
+*/
